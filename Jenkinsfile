@@ -13,7 +13,7 @@ jdk 'JDK'
     }
     stage('Build'){
       steps{
-        sh 'build'
+        sh 'gradle build'
       }
     }
     stage('Test'){
