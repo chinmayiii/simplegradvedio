@@ -6,7 +6,7 @@ agent any
   stages{
     stage('Checkout'){
       steps{
-        git branch:'main',url:'https://github.com/chinmayiii/mavenlistvedio.git'
+        git branch:'main',url:'https://github.com/chinmayiii/simplegradvedio.git'
       }
     }
     stage('Build'){
